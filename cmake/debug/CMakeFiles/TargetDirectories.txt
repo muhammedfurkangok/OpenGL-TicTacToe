@@ -1,0 +1,6 @@
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/edit_cache.dir
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/rebuild_cache.dir
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/CMakeFiles/edit_cache.dir
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/CMakeFiles/rebuild_cache.dir
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/code/CMakeFiles/edit_cache.dir
+C:/Gamedev/OpenGL-TicTacToe/cmake/debug/code/CMakeFiles/rebuild_cache.dir
