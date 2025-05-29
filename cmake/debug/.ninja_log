@@ -1,4 +1,25 @@
 # ninja log v6
-3	262	7701552816866910	build.ninja	b4c97a92ceaf2c4b
-26	326	7701550950221764	CMakeFiles/OpenGL_TicTacToe.dir/main.cpp.obj	6f18382211ebb5ca
+3	262	7702576354254909	build.ninja	b4c97a92ceaf2c4b
 328	405	7701550953236973	OpenGL_TicTacToe.exe	f6d4e3806ee628b4
+42	1183	7702576434718920	libraries/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj	fb311d5aff62d0be
+30	1199	7702576434583786	libraries/glfw/src/CMakeFiles/glfw.dir/platform.c.obj	314300ebac258d29
+34	1233	7702576434623748	libraries/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	c3855a61a6cd71a1
+47	1240	7702576434758921	libraries/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	22af5b2e5eb8cbd3
+26	1245	7702576434548554	libraries/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	9adec1e494ce2297
+52	1246	7702576434804163	libraries/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	7dbc4a731dcf9df0
+16	1247	7702576434453445	libraries/glfw/src/CMakeFiles/glfw.dir/context.c.obj	7131fcaaf0f8e3ef
+56	1257	7702576434854153	libraries/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	d08f9b18e473e110
+20	1258	7702576434488553	libraries/glfw/src/CMakeFiles/glfw.dir/init.c.obj	ac1b0dbc2fe8f9dc
+23	1260	7702576434518549	libraries/glfw/src/CMakeFiles/glfw.dir/input.c.obj	1d4d74dba0c5fa94
+62	1277	7702576434909364	libraries/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	fb6c2d8542682454
+71	1288	7702576435004647	libraries/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	fc7c0870d5ff7a62
+38	1289	7702576434668843	libraries/glfw/src/CMakeFiles/glfw.dir/window.c.obj	6a682decea0d4faf
+66	1377	7702576434949384	libraries/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	3fe0522e5c2e3870
+1377	1491	7702576448051578	libraries/glfw/src/libglfw3.a	76829527a8751c74
+1233	1970	7702576446626208	code/game/CMakeFiles/game.dir/core/main.cpp.obj	b4454b96cc70aac8
+1187	2119	7702576446160037	libraries/glad/CMakeFiles/glad.dir/glad.c.obj	c4793c33a054f85b
+1240	2177	7702576446691370	code/game/CMakeFiles/game.dir/__/__/libraries/glad/glad.c.obj	73012289aec17a7
+2119	2191	7702576455482864	libraries/glad/libglad.a	ebab46785903337e
+1199	4745	7702576446280346	libraries/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj	c38176828585ef22
+4745	7611	7702576481737622	libraries/glm/glm/libglm.a	84a24ec48bf31997
+7611	7741	7702576510396449	code/game/game.exe	6867417abbd1839d

@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared libraries
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/addr2line.exe
 
@@ -115,8 +118,56 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/
 //Convert GNU import libraries to MS format (requires Visual Studio)
 CMAKE_GNUtoMS:BOOL=OFF
 
+//User executables (bin)
+CMAKE_INSTALL_BINDIR:PATH=bin
+
+//Read-only architecture-independent data (DATAROOTDIR)
+CMAKE_INSTALL_DATADIR:PATH=
+
+//Read-only architecture-independent data root (share)
+CMAKE_INSTALL_DATAROOTDIR:PATH=share
+
+//Documentation root (DATAROOTDIR/doc/PROJECT_NAME)
+CMAKE_INSTALL_DOCDIR:PATH=
+
+//C header files (include)
+CMAKE_INSTALL_INCLUDEDIR:PATH=include
+
+//Info documentation (DATAROOTDIR/info)
+CMAKE_INSTALL_INFODIR:PATH=
+
+//Object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
+
+//Program executables (libexec)
+CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
+
+//Locale-dependent data (DATAROOTDIR/locale)
+CMAKE_INSTALL_LOCALEDIR:PATH=
+
+//Modifiable single-machine data (var)
+CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
+
+//Man documentation (DATAROOTDIR/man)
+CMAKE_INSTALL_MANDIR:PATH=
+
+//C header files for non-gcc (/usr/include)
+CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
+
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/OpenGL_TicTacToe
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/tic-tac-toe
+
+//Run-time variable data (LOCALSTATEDIR/run)
+CMAKE_INSTALL_RUNSTATEDIR:PATH=
+
+//System admin executables (sbin)
+CMAKE_INSTALL_SBINDIR:PATH=sbin
+
+//Modifiable architecture-independent data (com)
+CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
+
+//Read-only single-machine data (etc)
+CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
@@ -160,7 +211,22 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=OpenGL_TicTacToe
+CMAKE_PROJECT_NAME:STATIC=tic-tac-toe
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=3.5.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=5
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/ranlib.exe
@@ -246,13 +312,119 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-OpenGL_TicTacToe_BINARY_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug
+GLFW_BINARY_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/glfw
+
+//Build the GLFW example programs
+GLFW_BUILD_EXAMPLES:BOOL=OFF
+
+//Build the GLFW test programs
+GLFW_BUILD_TESTS:BOOL=OFF
+
+//Build support for Win32
+GLFW_BUILD_WIN32:BOOL=ON
+
+//Generate installation target
+GLFW_INSTALL:BOOL=ON
 
 //Value Computed by CMake
-OpenGL_TicTacToe_IS_TOP_LEVEL:STATIC=ON
+GLFW_IS_TOP_LEVEL:STATIC=OFF
+
+//Library type override for GLFW (SHARED, STATIC, OBJECT, or empty
+// to follow BUILD_SHARED_LIBS)
+GLFW_LIBRARY_TYPE:STRING=
 
 //Value Computed by CMake
-OpenGL_TicTacToe_SOURCE_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe
+GLFW_SOURCE_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/libraries/glfw
+
+//Force use of high-performance GPU on hybrid systems
+GLFW_USE_HYBRID_HPG:BOOL=OFF
+
+//Generate the install target
+GLM_BUILD_INSTALL:BOOL=OFF
+
+//Build dynamic/static library
+GLM_BUILD_LIBRARY:BOOL=ON
+
+//Build the test programs
+GLM_BUILD_TESTS:BOOL=OFF
+
+//Disable platform, compiler, arch and C++ language detection
+GLM_DISABLE_AUTO_DETECTION:BOOL=OFF
+
+//Enable C++ 11
+GLM_ENABLE_CXX_11:BOOL=OFF
+
+//Enable C++ 14
+GLM_ENABLE_CXX_14:BOOL=OFF
+
+//Enable C++ 17
+GLM_ENABLE_CXX_17:BOOL=OFF
+
+//Enable C++ 20
+GLM_ENABLE_CXX_20:BOOL=OFF
+
+//Enable C++ 98
+GLM_ENABLE_CXX_98:BOOL=OFF
+
+//Enable fast math optimizations
+GLM_ENABLE_FAST_MATH:BOOL=OFF
+
+//Enable language extensions
+GLM_ENABLE_LANG_EXTENSIONS:BOOL=OFF
+
+//Enable AVX optimizations
+GLM_ENABLE_SIMD_AVX:BOOL=OFF
+
+//Enable AVX2 optimizations
+GLM_ENABLE_SIMD_AVX2:BOOL=OFF
+
+//Enable ARM NEON optimizations
+GLM_ENABLE_SIMD_NEON:BOOL=OFF
+
+//Enable SSE2 optimizations
+GLM_ENABLE_SIMD_SSE2:BOOL=OFF
+
+//Enable SSE3 optimizations
+GLM_ENABLE_SIMD_SSE3:BOOL=OFF
+
+//Enable SSE 4.1 optimizations
+GLM_ENABLE_SIMD_SSE4_1:BOOL=OFF
+
+//Enable SSE 4.2 optimizations
+GLM_ENABLE_SIMD_SSE4_2:BOOL=OFF
+
+//Enable SSSE3 optimizations
+GLM_ENABLE_SIMD_SSSE3:BOOL=OFF
+
+//Force 'pure' instructions
+GLM_FORCE_PURE:BOOL=OFF
+
+//Value Computed by CMake
+game_BINARY_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/code/game
+
+//Value Computed by CMake
+game_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+game_SOURCE_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/code/game
+
+//Value Computed by CMake
+glm_BINARY_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/glm
+
+//Value Computed by CMake
+glm_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glm_SOURCE_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/libraries/glm
+
+//Value Computed by CMake
+tic-tac-toe_BINARY_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe/cmake/debug
+
+//Value Computed by CMake
+tic-tac-toe_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+tic-tac-toe_SOURCE_DIR:STATIC=C:/Gamedev/OpenGL-TicTacToe
 
 
 ########################
@@ -339,9 +511,43 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Gamedev/OpenGL-TicTacToe
+//ADVANCED property for variable: CMAKE_INSTALL_BINDIR
+CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATADIR
+CMAKE_INSTALL_DATADIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATAROOTDIR
+CMAKE_INSTALL_DATAROOTDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DOCDIR
+CMAKE_INSTALL_DOCDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INCLUDEDIR
+CMAKE_INSTALL_INCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INFODIR
+CMAKE_INSTALL_INFODIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBDIR
+CMAKE_INSTALL_LIBDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBEXECDIR
+CMAKE_INSTALL_LIBEXECDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALEDIR
+CMAKE_INSTALL_LOCALEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALSTATEDIR
+CMAKE_INSTALL_LOCALSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_MANDIR
+CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
+CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_RUNSTATEDIR
+CMAKE_INSTALL_RUNSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SBINDIR
+CMAKE_INSTALL_SBINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SHAREDSTATEDIR
+CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SYSCONFDIR
+CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -357,7 +563,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -413,6 +619,18 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Have include dinput.h
+DINPUT_H_FOUND:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//GLFW pkg-config Libs.private
+GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL=-lgdi32
+//GLFW pkg-config Requires.private
+GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
+//Have include xinput.h
+XINPUT_H_FOUND:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
+//CMAKE_INSTALL_PREFIX during last run
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/tic-tac-toe
 
