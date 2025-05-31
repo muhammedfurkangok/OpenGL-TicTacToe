@@ -6,68 +6,48 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include <vector>
+#include <iostream>
 
-auto vertex_stage_text =
-        "#version 450\n"
-        "layout(location = 0) in vec3 position;\n"
-        "layout(location = 0) uniform mat4 proj;\n"
-        "layout(location = 1) uniform mat4 view;\n"
-        "layout(location = 2) uniform mat4 model;\n"
-        "void main()\n"
-        "{\n"
-        "    gl_Position = proj * view * model * vec4(position, 1.0);\n"
-        "}\n";
-
-auto fragment_stage_text =
-        "#version 450\n"
-        "out vec4 color;\n"
-        "void main()\n"
-        "{\n"
-        "    color = vec4(1.0, 0.0, 0.0, 1.0);\n"
-        "}\n";
-
-auto main() -> int
+// Shader source code
+constexpr auto vertex_stage_text = R"(
+#version 450
+layout(location = 0) in vec3 position;
+layout(location = 0) uniform mat4 proj;
+layout(location = 1) uniform mat4 view;
+layout(location = 2) uniform mat4 model;
+void main()
 {
-    glfwInit();
+    gl_Position = proj * view * model * vec4(position, 1.0);
+}
+)";
 
-    constexpr auto window_width  = 1000;
-    constexpr auto window_height = 1000;
+constexpr auto fragment_stage_text = R"(
+#version 450
+out vec4 color;
+void main()
+{
+    color = vec4(1.0, 0.0, 0.0, 1.0);
+}
+)";
 
-    const auto window = glfwCreateWindow(window_width, window_height, "Tic-Tac-Toe", nullptr, nullptr);
+// Function to compile a shader
+GLuint compileShader(GLenum type, const char* source) {
+    GLuint shader = glCreateShader(type);
+    glShaderSource(shader, 1, &source, nullptr);
+    glCompileShader(shader);
 
-    glfwMakeContextCurrent(window);
+    GLint success;
+    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
+    if (!success) {
+        char infoLog[512];
+        glGetShaderInfoLog(shader, 512, nullptr, infoLog);
+        std::cerr << "Shader Compilation Error: " << infoLog << std::endl;
+    }
+    return shader;
+}
 
-    gladLoadGL();
-
-    const auto vertex_stage = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertex_stage, 1, &vertex_stage_text, nullptr);
-    glCompileShader(vertex_stage);
-
-    const auto fragment_stage = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragment_stage, 1, &fragment_stage_text, nullptr);
-    glCompileShader(fragment_stage);
-
-    const auto shader = glCreateProgram();
-    glAttachShader(shader, vertex_stage);
-    glAttachShader(shader, fragment_stage);
-    glLinkProgram(shader);
-
-    const std::vector vertices
-            {
-                    -0.5f,  0.5f, 0.0f,
-                    0.5f,  0.5f, 0.0f,
-                    0.5f, -0.5f, 0.0f,
-                    -0.5f, -0.5f, 0.0f
-            };
-
-    const std::vector<uint32_t> elements
-            {
-                    0, 1, 2,
-                    2, 3, 0
-            };
-
-    uint32_t vao, vbo, ebo;
-
+// Function to initialize buffers
+void initializeBuffers(GLuint& vao, GLuint& vbo, GLuint& ebo, const std::vector<float>& vertices, const std::vector<uint32_t>& elements) {
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
 
@@ -81,18 +61,57 @@ auto main() -> int
 
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+}
+
+// Function to update uniform matrices
+void updateUniformMatrix(GLuint location, const glm::mat4& matrix) {
+    glUniformMatrix4fv(location, 1, GL_FALSE, glm::value_ptr(matrix));
+}
+
+int main() {
+    glfwInit();
+
+    constexpr auto window_width = 1000;
+    constexpr auto window_height = 1000;
+
+    const auto window = glfwCreateWindow(window_width, window_height, "Tic-Tac-Toe", nullptr, nullptr);
+    glfwMakeContextCurrent(window);
+    gladLoadGL();
+
+    // Compile shaders and link program
+    GLuint vertex_stage = compileShader(GL_VERTEX_SHADER, vertex_stage_text);
+    GLuint fragment_stage = compileShader(GL_FRAGMENT_SHADER, fragment_stage_text);
+
+    GLuint shader = glCreateProgram();
+    glAttachShader(shader, vertex_stage);
+    glAttachShader(shader, fragment_stage);
+    glLinkProgram(shader);
+
+    // Vertex and element data
+    const std::vector<float> vertices = {
+        -0.5f,  0.5f, 0.0f,
+         0.5f,  0.5f, 0.0f,
+         0.5f, -0.5f, 0.0f,
+        -0.5f, -0.5f, 0.0f
+    };
+
+    const std::vector<uint32_t> elements = {
+        0, 1, 2,
+        2, 3, 0
+    };
+
+    GLuint vao, vbo, ebo;
+    initializeBuffers(vao, vbo, ebo, vertices, elements);
 
     glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 
     auto proj = glm::perspective(glm::radians(60.0f), static_cast<float>(window_width) / static_cast<float>(window_height), 0.1f, 100.0f);
     auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
 
-    while (!glfwWindowShouldClose(window))
-    {
+    while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
 
-        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        {
+        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
             glfwSetWindowShouldClose(window, true);
         }
 
@@ -100,21 +119,18 @@ auto main() -> int
 
         glUseProgram(shader);
 
-        glUniformMatrix4fv(0, 1, GL_FALSE, glm::value_ptr(proj));
-        glUniformMatrix4fv(1, 1, GL_FALSE, glm::value_ptr(view));
+        updateUniformMatrix(0, proj);
+        updateUniformMatrix(1, view);
 
-        for (auto row = 0; row < 3; row++)
-        {
-            for (auto col = 0; col < 3; col++)
-            {
-                constexpr auto  tile_space = 1.1f;
+        constexpr auto tile_space = 1.1f;
 
+        for (auto row = 0; row < 3; row++) {
+            for (auto col = 0; col < 3; col++) {
                 const auto x = -tile_space + col * tile_space;
-                const auto y =  tile_space - row * tile_space;
+                const auto y = tile_space - row * tile_space;
 
                 auto model = glm::translate(glm::mat4(1.0f), glm::vec3(x, y, 0.0f));
-
-                glUniformMatrix4fv(2, 1, GL_FALSE, glm::value_ptr(model));
+                updateUniformMatrix(2, model);
 
                 glDrawElements(GL_TRIANGLES, elements.size(), GL_UNSIGNED_INT, nullptr);
             }
@@ -124,7 +140,6 @@ auto main() -> int
     }
 
     glDeleteVertexArrays(1, &vao);
-
     glDeleteBuffers(1, &vbo);
     glDeleteBuffers(1, &ebo);
 

@@ -23,3 +23,5 @@
 1199	4745	7702576446280346	libraries/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj	c38176828585ef22
 4745	7611	7702576481737622	libraries/glm/glm/libglm.a	84a24ec48bf31997
 7611	7741	7702576510396449	code/game/game.exe	6867417abbd1839d
+16	878	7704232307689864	code/game/CMakeFiles/game.dir/core/main.cpp.obj	b4454b96cc70aac8
+878	1085	7704232316307004	code/game/game.exe	6867417abbd1839d
