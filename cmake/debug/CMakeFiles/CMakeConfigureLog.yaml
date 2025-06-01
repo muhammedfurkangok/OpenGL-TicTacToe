@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-d31z1e"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-d31z1e"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zjcmdj"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zjcmdj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-d31z1e'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zjcmdj'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2b22f
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_3ccde
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/'
-         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b22f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccC40e2w.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/'
+         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3ccde.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\cchq63k7.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -101,13 +101,13 @@ events:
          /mingw/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/'
-         as -v -o CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccC40e2w.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/'
+         as -v -o CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\cchq63k7.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj -o cmTC_2b22f.exe -Wl,--out-implib,libcmTC_2b22f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj -o cmTC_3ccde.exe -Wl,--out-implib,libcmTC_3ccde.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -118,12 +118,12 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b22f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b22f.'
-         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_2b22f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b22f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccde.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3ccde.'
+         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_3ccde.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3ccde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_2b22f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b22f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_3ccde.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3ccde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         GNU ld (GNU Binutils) 2.40
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b22f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b22f.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccde.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3ccde.'\x0d
         
       exitCode: 0
   -
@@ -160,10 +160,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-d31z1e']
+        ignore line: [Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zjcmdj']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2b22f]
-        ignore line: [[1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_3ccde]
+        ignore line: [[1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -171,8 +171,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/']
-        ignore line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b22f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccC40e2w.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/']
+        ignore line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3ccde.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\cchq63k7.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -190,8 +190,8 @@ events:
         ignore line: [ /mingw/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccC40e2w.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\cchq63k7.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
@@ -203,8 +203,8 @@ events:
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
         ignore line: [/mingw/lib/\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj -o cmTC_2b22f.exe -Wl --out-implib libcmTC_2b22f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj -o cmTC_3ccde.exe -Wl --out-implib libcmTC_3ccde.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -223,14 +223,14 @@ events:
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
         ignore line: [/mingw/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b22f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b22f.']
-        link line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_2b22f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b22f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccde.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3ccde.']
+        link line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_3ccde.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3ccde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2b22f.exe] ==> ignore
+          arg [cmTC_3ccde.exe] ==> ignore
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -242,9 +242,9 @@ events:
           arg [-LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-L/mingw/lib] ==> dir [/mingw/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2b22f.dll.a] ==> ignore
+          arg [libcmTC_3ccde.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -272,7 +272,7 @@ events:
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_2b22f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2b22f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b22f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_3ccde.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_3ccde.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3ccde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         linker tool for 'C': C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -315,8 +315,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-0qete1"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-0qete1"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-g96cmr"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-g96cmr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -326,10 +326,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-0qete1'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-g96cmr'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2bd04
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7680f
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -337,8 +337,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/'
-         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2bd04.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccABj9XR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/'
+         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7680f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccSoYfKj.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -362,13 +362,13 @@ events:
          /mingw/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/'
-         as -v -o CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccABj9XR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/'
+         as -v -o CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccSoYfKj.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2bd04.exe -Wl,--out-implib,libcmTC_2bd04.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7680f.exe -Wl,--out-implib,libcmTC_7680f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -379,12 +379,12 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bd04.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2bd04.'
-         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_2bd04.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2bd04.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7680f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7680f.'
+         C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7680f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7680f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_2bd04.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2bd04.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7680f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7680f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         GNU ld (GNU Binutils) 2.40
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bd04.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2bd04.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7680f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7680f.'\x0d
         
       exitCode: 0
   -
@@ -427,10 +427,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-0qete1']
+        ignore line: [Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-g96cmr']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2bd04]
-        ignore line: [[1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7680f]
+        ignore line: [[1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -438,8 +438,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/']
-        ignore line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2bd04.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccABj9XR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/']
+        ignore line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7680f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccSoYfKj.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -463,8 +463,8 @@ events:
         ignore line: [ /mingw/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccABj9XR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\gkkan\\AppData\\Local\\Temp\\ccSoYfKj.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
@@ -476,8 +476,8 @@ events:
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
         ignore line: [/mingw/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2bd04.exe -Wl --out-implib libcmTC_2bd04.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7680f.exe -Wl --out-implib libcmTC_7680f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -496,14 +496,14 @@ events:
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
         ignore line: [/mingw/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bd04.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2bd04.']
-        link line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_2bd04.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2bd04.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7680f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7680f.']
+        link line: [ C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7680f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7680f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2bd04.exe] ==> ignore
+          arg [cmTC_7680f.exe] ==> ignore
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -515,9 +515,9 @@ events:
           arg [-LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-L/mingw/lib] ==> dir [/mingw/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2bd04.dll.a] ==> ignore
+          arg [libcmTC_7680f.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -546,7 +546,7 @@ events:
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_2bd04.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_2bd04.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2bd04.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7680f.exe C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_7680f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7680f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         linker tool for 'CXX': C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -589,8 +589,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-4rr2vq"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-4rr2vq"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zsm7pi"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zsm7pi"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -600,11 +600,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-4rr2vq'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zsm7pi'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_35488
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_35488.dir/src.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-4rr2vq/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_35488.dir/src.c.obj -o cmTC_35488.exe -Wl,--out-implib,libcmTC_35488.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_29fa7
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_29fa7.dir/src.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-zsm7pi/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_29fa7.dir/src.c.obj -o cmTC_29fa7.exe -Wl,--out-implib,libcmTC_29fa7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -615,8 +615,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-gsmilq"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-gsmilq"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-yzke8o"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-yzke8o"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -626,11 +626,11 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-gsmilq'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-yzke8o'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_73a97
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_73a97.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-gsmilq/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_73a97.dir/CheckIncludeFile.c.obj -o cmTC_73a97.exe -Wl,--out-implib,libcmTC_73a97.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_4440c
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_4440c.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-yzke8o/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_4440c.dir/CheckIncludeFile.c.obj -o cmTC_4440c.exe -Wl,--out-implib,libcmTC_4440c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -641,8 +641,8 @@ events:
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-3nc1n3"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-3nc1n3"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-imepum"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-imepum"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -652,11 +652,11 @@ events:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-3nc1n3'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-imepum'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7a28c
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_7a28c.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-3nc1n3/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_7a28c.dir/CheckIncludeFile.c.obj -o cmTC_7a28c.exe -Wl,--out-implib,libcmTC_7a28c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_abb9f
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_abb9f.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-imepum/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_abb9f.dir/CheckIncludeFile.c.obj -o cmTC_abb9f.exe -Wl,--out-implib,libcmTC_abb9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -667,8 +667,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-7vy82p"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-7vy82p"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-xdgaxn"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-xdgaxn"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -678,11 +678,11 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-7vy82p'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-xdgaxn'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_a58b7
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_a58b7.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-7vy82p/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_a58b7.dir/CheckIncludeFile.c.obj -o cmTC_a58b7.exe -Wl,--out-implib,libcmTC_a58b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_09597
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_09597.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-xdgaxn/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_09597.dir/CheckIncludeFile.c.obj -o cmTC_09597.exe -Wl,--out-implib,libcmTC_09597.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -693,8 +693,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-8uwga4"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-8uwga4"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-oof2s3"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-oof2s3"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -704,11 +704,11 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-8uwga4'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-oof2s3'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_5364f
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_5364f.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-8uwga4/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_5364f.dir/CheckIncludeFile.c.obj -o cmTC_5364f.exe -Wl,--out-implib,libcmTC_5364f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_4ca7f
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_4ca7f.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-oof2s3/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_4ca7f.dir/CheckIncludeFile.c.obj -o cmTC_4ca7f.exe -Wl,--out-implib,libcmTC_4ca7f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -719,8 +719,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-rpab1i"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-rpab1i"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-kuntoq"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-kuntoq"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -730,11 +730,11 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-rpab1i'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-kuntoq'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_44499
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_44499.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-rpab1i/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_44499.dir/CheckIncludeFile.c.obj -o cmTC_44499.exe -Wl,--out-implib,libcmTC_44499.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ccf21
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_ccf21.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-kuntoq/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_ccf21.dir/CheckIncludeFile.c.obj -o cmTC_ccf21.exe -Wl,--out-implib,libcmTC_ccf21.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -746,8 +746,8 @@ events:
     checks:
       - "Check size of off64_t"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-eorfsy"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-eorfsy"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-akwdzy"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-akwdzy"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -757,11 +757,11 @@ events:
       variable: "HAVE_OFF64_T"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-eorfsy'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-akwdzy'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ebae5
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_ebae5.dir/OFF64_T.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-eorfsy/OFF64_T.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_ebae5.dir/OFF64_T.c.obj -o cmTC_ebae5.exe -Wl,--out-implib,libcmTC_ebae5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2378c
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_2378c.dir/OFF64_T.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-akwdzy/OFF64_T.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_2378c.dir/OFF64_T.c.obj -o cmTC_2378c.exe -Wl,--out-implib,libcmTC_2378c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -772,8 +772,8 @@ events:
     checks:
       - "Looking for fseeko"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-1tmhpi"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-1tmhpi"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bcduam"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bcduam"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -783,11 +783,11 @@ events:
       variable: "HAVE_FSEEKO"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-1tmhpi'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bcduam'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_fa147
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_fa147.dir/CheckFunctionExists.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-1tmhpi/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_fa147.dir/CheckFunctionExists.c.obj -o cmTC_fa147.exe -Wl,--out-implib,libcmTC_fa147.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1ee74
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_1ee74.dir/CheckFunctionExists.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bcduam/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_1ee74.dir/CheckFunctionExists.c.obj -o cmTC_1ee74.exe -Wl,--out-implib,libcmTC_1ee74.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -798,8 +798,8 @@ events:
     checks:
       - "Looking for unistd.h"
     directories:
-      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-b8ascd"
-      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-b8ascd"
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-it8f5c"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-it8f5c"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -809,11 +809,11 @@ events:
       variable: "Z_HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-b8ascd'
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-it8f5c'
         
-        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ffa36
-        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_ffa36.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-b8ascd/CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_ffa36.dir/CheckIncludeFile.c.obj -o cmTC_ffa36.exe -Wl,--out-implib,libcmTC_ffa36.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_978cb
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_978cb.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-it8f5c/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_978cb.dir/CheckIncludeFile.c.obj -o cmTC_978cb.exe -Wl,--out-implib,libcmTC_978cb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
 ...

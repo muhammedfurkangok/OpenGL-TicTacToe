@@ -1,4 +1,4 @@
-C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_CXX_STANDART:STRING=23 -G Ninja -S C:\Gamedev\OpenGL-TicTacToe -B C:\Gamedev\OpenGL-TicTacToe\cmake\debug
+C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:PATH=C:/Gamedev/OpenGL-TicTacToe/build -DCMAKE_CXX_STANDART_REQUIRED:BOOL=ON -DCMAKE_CXX_STANDART:STRING=23 -DADO_ASSIMP_IMPORTER_OBJ:BOOL=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=OFF -G Ninja -S C:\Gamedev\OpenGL-TicTacToe -B C:\Gamedev\OpenGL-TicTacToe\cmake\debug
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -35,19 +35,21 @@ C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCM
 -- Applying MinGW StepFileGen1.cpp Debug Workaround
 -- VRML disabled
 -- tinyusdz disabled
--- Enabled importer formats: AMF 3DS AC ASE ASSBIN B3D BVH COLLADA DXF CSM HMP IRRMESH IQM IRR LWO LWS MD2 MD3 MD5 MDC MDL NFF NDO OFF OBJ OGRE OPENGEX PLY MS3D COB BLEND IFC XGL FBX Q3D Q3BSP RAW SIB SMD STL TERRAGEN 3D X X3D GLTF 3MF MMD
--- Disabled importer formats: USD
--- Enabled exporter formats: OBJ OPENGEX PLY 3DS ASSBIN ASSXML COLLADA FBX STL X X3D GLTF 3MF PBRT ASSJSON STEP
--- Disabled exporter formats:
+-- Enabled importer formats:
+-- Disabled importer formats: AMF 3DS AC ASE ASSBIN B3D BVH COLLADA DXF CSM HMP IRRMESH IQM IRR LWO LWS MD2 MD3 MD5 MDC MDL NFF NDO OFF OBJ OGRE OPENGEX PLY MS3D COB BLEND IFC XGL FBX Q3D Q3BSP RAW SIB SMD STL TERRAGEN 3D USD X X3D GLTF 3MF MMD
+-- Enabled exporter formats:
+-- Disabled exporter formats: OBJ OPENGEX PLY 3DS ASSBIN ASSXML COLLADA FBX STL X X3D GLTF 3MF PBRT ASSJSON STEP
 -- Treating all warnings as errors (for assimp library only)
 -- GLM: Version 1.0.2
 -- GLM: Build with C++ features auto detection
--- Configuring done (4.2s)
--- Generating done (0.4s)
+-- Configuring done (4.6s)
+-- Generating done (0.2s)
 CMake Warning:
   Manually-specified variables were not used by the project:
 
+    ADO_ASSIMP_IMPORTER_OBJ
     CMAKE_CXX_STANDART
+    CMAKE_CXX_STANDART_REQUIRED
 
 
 -- Build files have been written to: C:/Gamedev/OpenGL-TicTacToe/cmake/debug

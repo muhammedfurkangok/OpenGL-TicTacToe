@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//No help, variable specified on the command line.
+ADO_ASSIMP_IMPORTER_OBJ:BOOL=ON
+
 //Android JNI IOSystem support is active
 ASSIMP_ANDROID_JNIIOSYSTEM:BOOL=OFF
 
@@ -27,10 +30,10 @@ ASSIMP_ASAN:BOOL=OFF
 ASSIMP_BIN_INSTALL_DIR:STRING=bin
 
 //default value of all ASSIMP_BUILD_XXX_EXPORTER values
-ASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=ON
+ASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=OFF
 
 //default value of all ASSIMP_BUILD_XXX_IMPORTER values
-ASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=ON
+ASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=OFF
 
 //describe the current architecture.
 ASSIMP_BUILD_ARCHITECTURE:STRING=
@@ -130,7 +133,7 @@ ASSIMP_PACKAGE_VERSION:STRING=0
 ASSIMP_RAPIDJSON_NO_MEMBER_ITERATOR:BOOL=ON
 
 //Path for runtime output files
-ASSIMP_RUNTIME_OUTPUT_DIRECTORY:STRING=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/bin
+ASSIMP_RUNTIME_OUTPUT_DIRECTORY:STRING=C:/Gamedev/OpenGL-TicTacToe/build
 
 //Enable Undefined Behavior sanitizer.
 ASSIMP_UBSAN:BOOL=OFF
@@ -197,6 +200,9 @@ CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshe
 
 //No help, variable specified on the command line.
 CMAKE_CXX_STANDART:STRING=23
+
+//No help, variable specified on the command line.
+CMAKE_CXX_STANDART_REQUIRED:BOOL=ON
 
 //C compiler
 CMAKE_C_COMPILER:FILEPATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe
@@ -390,6 +396,9 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
 CMAKE_READELF:FILEPATH=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/mingw/bin/readelf.exe
+
+//No help, variable specified on the command line.
+CMAKE_RUNTIME_OUTPUT_DIRECTORY:PATH=C:/Gamedev/OpenGL-TicTacToe/build
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
