@@ -3408,7 +3408,7 @@ build cmake_object_order_depends_target_glm: phony || .
 
 build libraries/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: CXX_COMPILER__glm_unscanned_Debug C$:/Gamedev/OpenGL-TicTacToe/libraries/glm/glm/detail/glm.cpp || cmake_object_order_depends_target_glm
   DEP_FILE = libraries\glm\glm\CMakeFiles\glm.dir\detail\glm.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=c++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Gamedev/OpenGL-TicTacToe/libraries/glm
   OBJECT_DIR = libraries\glm\glm\CMakeFiles\glm.dir
   OBJECT_FILE_DIR = libraries\glm\glm\CMakeFiles\glm.dir\detail
@@ -3583,7 +3583,7 @@ build cmake_object_order_depends_target_game: phony || cmake_object_order_depend
 
 build code/game/CMakeFiles/game.dir/core/main.cpp.obj: CXX_COMPILER__game_unscanned_Debug C$:/Gamedev/OpenGL-TicTacToe/code/game/core/main.cpp || cmake_object_order_depends_target_game
   DEP_FILE = code\game\CMakeFiles\game.dir\core\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Gamedev/OpenGL-TicTacToe/code/game/core/.. -IC:/Gamedev/OpenGL-TicTacToe/libraries/glfw/include -IC:/Gamedev/OpenGL-TicTacToe/libraries/glad/include -IC:/Gamedev/OpenGL-TicTacToe/libraries/assimp/code/../include -IC:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/code/../include -IC:/Gamedev/OpenGL-TicTacToe/libraries/glm
   OBJECT_DIR = code\game\CMakeFiles\game.dir
   OBJECT_FILE_DIR = code\game\CMakeFiles\game.dir\core

@@ -1,4 +1,4 @@
-C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:PATH=C:/Gamedev/OpenGL-TicTacToe/build -DCMAKE_CXX_STANDART_REQUIRED:BOOL=ON -DCMAKE_CXX_STANDART:STRING=23 -DADO_ASSIMP_IMPORTER_OBJ:BOOL=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=OFF -G Ninja -S C:\Gamedev\OpenGL-TicTacToe -B C:\Gamedev\OpenGL-TicTacToe\cmake\debug
+C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:PATH=C:/Gamedev/OpenGL-TicTacToe/build -DCMAKE_CXX_STANDARD_REQUIRED:BOOL=ON -DCMAKE_CXX_STANDARD:STRING=23 -DADO_ASSIMP_IMPORTER_OBJ:BOOL=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=OFF -G Ninja -S C:\Gamedev\OpenGL-TicTacToe -B C:\Gamedev\OpenGL-TicTacToe\cmake\debug
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -42,14 +42,12 @@ C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCM
 -- Treating all warnings as errors (for assimp library only)
 -- GLM: Version 1.0.2
 -- GLM: Build with C++ features auto detection
--- Configuring done (4.6s)
+-- Configuring done (4.1s)
 -- Generating done (0.2s)
 CMake Warning:
   Manually-specified variables were not used by the project:
 
     ADO_ASSIMP_IMPORTER_OBJ
-    CMAKE_CXX_STANDART
-    CMAKE_CXX_STANDART_REQUIRED
 
 
 -- Build files have been written to: C:/Gamedev/OpenGL-TicTacToe/cmake/debug

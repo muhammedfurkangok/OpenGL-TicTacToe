@@ -854,6 +854,18 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
+			"name" : "CMAKE_CXX_STANDARD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "STRING",
+			"value" : "23"
+		},
+		{
 			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
 			"properties" : 
 			[
@@ -870,19 +882,7 @@
 			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
 		},
 		{
-			"name" : "CMAKE_CXX_STANDART",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "23"
-		},
-		{
-			"name" : "CMAKE_CXX_STANDART_REQUIRED",
+			"name" : "CMAKE_CXX_STANDARD_REQUIRED",
 			"properties" : 
 			[
 				{

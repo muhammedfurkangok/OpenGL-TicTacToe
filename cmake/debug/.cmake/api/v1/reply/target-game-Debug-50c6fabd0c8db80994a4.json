@@ -80,7 +80,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++23 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
@@ -111,6 +111,14 @@
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
 			"sourceIndexes" : 
 			[
 				0
