@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Android JNI IOSystem support is active
+ASSIMP_ANDROID_JNIIOSYSTEM:BOOL=OFF
+
 //Path for library output files
 ASSIMP_ARCHIVE_OUTPUT_DIRECTORY:STRING=C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/lib
 
@@ -48,6 +51,12 @@ ASSIMP_BUILD_DRACO:BOOL=OFF
 //Build package as Mac OS X Framework bundle.
 ASSIMP_BUILD_FRAMEWORK:BOOL=OFF
 
+//Enable M3D file export
+ASSIMP_BUILD_M3D_EXPORTER:BOOL=OFF
+
+//Enable M3D file import
+ASSIMP_BUILD_M3D_IMPORTER:BOOL=OFF
+
 //Build the C4D importer, which relies on the non-free Cineware
 // SDK.
 ASSIMP_BUILD_NONFREE_C4D_IMPORTER:BOOL=OFF
@@ -58,8 +67,17 @@ ASSIMP_BUILD_SAMPLES:BOOL=OFF
 //If the test suite for Assimp is built in addition to the library.
 ASSIMP_BUILD_TESTS:BOOL=ON
 
+//Enable USD file import
+ASSIMP_BUILD_USD_IMPORTER:BOOL=OFF
+
+//Enable verbose USD import debug logging
+ASSIMP_BUILD_USD_VERBOSE_LOGS:BOOL=OFF
+
 //Use ccache to speed up compilation.
 ASSIMP_BUILD_USE_CCACHE:BOOL=ON
+
+//Enable VRML (.wrl/.x3dv) file import
+ASSIMP_BUILD_VRML_IMPORTER:BOOL=OFF
 
 //Build your zlib
 ASSIMP_BUILD_ZLIB:BOOL=ON
@@ -69,6 +87,10 @@ ASSIMP_COVERALLS:BOOL=OFF
 
 //Set to ON to enable double precision processing
 ASSIMP_DOUBLE_PRECISION:BOOL=OFF
+
+//adds the target headercheck which compiles every header file,
+// default disabled because it adds many targets
+ASSIMP_HEADERCHECK:BOOL=OFF
 
 //Enable Hunter package manager support
 ASSIMP_HUNTER_ENABLED:BOOL=OFF
@@ -700,7 +722,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

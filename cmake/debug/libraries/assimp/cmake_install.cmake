@@ -77,3 +77,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/code/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/test/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "libassimp5.4.3-dev" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/libraries/assimp/assimp.pc")
+endif()
+

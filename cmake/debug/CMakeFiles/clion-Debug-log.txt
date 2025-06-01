@@ -19,18 +19,6 @@ C:\Users\gkkan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCM
 -- Looking for xinput.h
 -- Looking for xinput.h - found
 -- Shared libraries disabled
-CMake Error at libraries/assimp/CMakeLists.txt:354 (INCLUDE):
-  INCLUDE could not find requested file:
-
-    FindPkgMacros
-
-
-CMake Error at libraries/assimp/CMakeLists.txt:355 (INCLUDE):
-  INCLUDE could not find requested file:
-
-    PrecompiledHeader
-
-
 -- compiling zlib from sources
 -- Looking for sys/types.h
 -- Looking for sys/types.h - found
@@ -47,11 +35,19 @@ CMake Error at libraries/assimp/CMakeLists.txt:355 (INCLUDE):
 -- Applying MinGW StepFileGen1.cpp Debug Workaround
 -- VRML disabled
 -- tinyusdz disabled
--- Enabled importer formats: COLLADA OBJ FBX GLTF
--- Disabled importer formats:
--- Enabled exporter formats:
+-- Enabled importer formats: AMF 3DS AC ASE ASSBIN B3D BVH COLLADA DXF CSM HMP IRRMESH IQM IRR LWO LWS MD2 MD3 MD5 MDC MDL NFF NDO OFF OBJ OGRE OPENGEX PLY MS3D COB BLEND IFC XGL FBX Q3D Q3BSP RAW SIB SMD STL TERRAGEN 3D X X3D GLTF 3MF MMD
+-- Disabled importer formats: USD
+-- Enabled exporter formats: OBJ OPENGEX PLY 3DS ASSBIN ASSXML COLLADA FBX STL X X3D GLTF 3MF PBRT ASSJSON STEP
 -- Disabled exporter formats:
 -- Treating all warnings as errors (for assimp library only)
 -- GLM: Version 1.0.2
 -- GLM: Build with C++ features auto detection
--- Configuring incomplete, errors occurred!
+-- Configuring done (4.2s)
+-- Generating done (0.4s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_STANDART
+
+
+-- Build files have been written to: C:/Gamedev/OpenGL-TicTacToe/cmake/debug
