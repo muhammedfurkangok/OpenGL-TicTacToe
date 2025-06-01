@@ -660,3 +660,164 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-vl06ry"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-vl06ry"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-vl06ry'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2d24d
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_2d24d.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-vl06ry/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_2d24d.dir/CheckIncludeFile.c.obj -o cmTC_2d24d.exe -Wl,--out-implib,libcmTC_2d24d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-128sn3"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-128sn3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-128sn3'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_319e9
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_319e9.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-128sn3/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_319e9.dir/CheckIncludeFile.c.obj -o cmTC_319e9.exe -Wl,--out-implib,libcmTC_319e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-a26mkp"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-a26mkp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-a26mkp'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_fc254
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_fc254.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-a26mkp/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_fc254.dir/CheckIncludeFile.c.obj -o cmTC_fc254.exe -Wl,--out-implib,libcmTC_fc254.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-hgmmf9"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-hgmmf9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-hgmmf9'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_f83d8
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_f83d8.dir/OFF64_T.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-hgmmf9/OFF64_T.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_f83d8.dir/OFF64_T.c.obj -o cmTC_f83d8.exe -Wl,--out-implib,libcmTC_f83d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bo67p7"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bo67p7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bo67p7'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_98067
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_98067.dir/CheckFunctionExists.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-bo67p7/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_98067.dir/CheckFunctionExists.c.obj -o cmTC_98067.exe -Wl,--out-implib,libcmTC_98067.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/gkkan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libraries/assimp/contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-40963e"
+      binary: "C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-40963e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "cmake-modules"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-40963e'
+        
+        Run Build Command(s): C:/Users/gkkan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2b245
+        [1/2] C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fno-strict-aliasing -fPIC   -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_2b245.dir/CheckIncludeFile.c.obj -c C:/Gamedev/OpenGL-TicTacToe/cmake/debug/CMakeFiles/CMakeScratch/TryCompile-40963e/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\gkkan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fno-strict-aliasing -fPIC  CMakeFiles/cmTC_2b245.dir/CheckIncludeFile.c.obj -o cmTC_2b245.exe -Wl,--out-implib,libcmTC_2b245.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
