@@ -11,6 +11,7 @@
 
 #include <vector>
 
+// Vertex Shader - pozisyonu model * view * projection matrisleriyle çarpar
 auto vertex_stage_text =
         "#version 450\n"
         "layout(location = 0) in vec3 position;\n"
@@ -22,6 +23,7 @@ auto vertex_stage_text =
         "    gl_Position = proj * view * model * vec4(position, 1.0);\n"
         "}\n";
 
+// Fragment Shader - her pikseli kırmızı yapar
 auto fragment_stage_text =
         "#version 450\n"
         "out vec4 color;\n"
@@ -32,17 +34,17 @@ auto fragment_stage_text =
 
 auto main() -> int
 {
-    glfwInit();
+    glfwInit(); // GLFW başlatılır
 
     constexpr auto window_width  = 1000;
     constexpr auto window_height = 1000;
 
+    // OpenGL penceresi oluşturuluyor
     const auto window = glfwCreateWindow(window_width, window_height, "Tic-Tac-Toe", nullptr, nullptr);
+    glfwMakeContextCurrent(window); // pencereyi aktif yap
+    gladLoadGL(); // GL fonksiyonları yüklenir
 
-    glfwMakeContextCurrent(window);
-
-    gladLoadGL();
-
+    // Shader’lar oluşturuluyor
     const auto vertex_stage = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertex_stage, 1, &vertex_stage_text, nullptr);
     glCompileShader(vertex_stage);
@@ -51,11 +53,13 @@ auto main() -> int
     glShaderSource(fragment_stage, 1, &fragment_stage_text, nullptr);
     glCompileShader(fragment_stage);
 
+    // Shader programı bağlanıyor
     const auto shader = glCreateProgram();
     glAttachShader(shader, vertex_stage);
     glAttachShader(shader, fragment_stage);
     glLinkProgram(shader);
 
+    // Kare (tile) vertex ve index verileri
     const std::vector tile_vertices
             {
                     -0.5f,  0.5f, 0.0f,
@@ -66,12 +70,13 @@ auto main() -> int
 
     const std::vector<uint32_t> tile_elements
             {
-                    0, 1, 2,
-                    2, 3, 0
+                    0, 1, 2, // birinci üçgen
+                    2, 3, 0  // ikinci üçgen
             };
 
     uint32_t tile_vao, tile_vbo, tile_ebo;
 
+    // Tile için VAO, VBO ve EBO oluşturuluyor
     glGenVertexArrays(1, &tile_vao);
     glBindVertexArray(tile_vao);
 
@@ -83,30 +88,33 @@ auto main() -> int
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, tile_ebo);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(uint32_t) * tile_elements.size(), tile_elements.data(), GL_STATIC_DRAW);
 
+    // Vertex attribute ayarlanıyor (pozisyon)
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+    // 'O' harfi için vertex ve index dizileri
     std::vector<float>    o_vertices;
     std::vector<uint32_t> o_elements;
 
     Assimp::Importer importer;
 
+    // Assimp ile model dosyası okunuyor
     auto scene = importer.ReadFile("o.obj", 0);
     auto mesh  = scene->mMeshes[0];
 
+    // Tüm vertexler alınır (x, y, z)
     for (auto i = 0; i < mesh->mNumVertices; i++)
     {
         auto vertex = mesh->mVertices[i];
-
         o_vertices.push_back(vertex.x);
         o_vertices.push_back(vertex.y);
         o_vertices.push_back(vertex.z);
     }
 
+    // Her yüzey üç köşe içerir. Bu köşe indexleri alınır
     for (auto i = 0; i < mesh->mNumFaces; i++)
     {
         auto face = mesh->mFaces[i];
-
         o_elements.push_back(face.mIndices[0]);
         o_elements.push_back(face.mIndices[1]);
         o_elements.push_back(face.mIndices[2]);
@@ -114,6 +122,7 @@ auto main() -> int
 
     uint32_t o_vao, o_vbo, o_ebo;
 
+    // 'O' mesh'i için VAO, VBO, EBO oluşturuluyor
     glGenVertexArrays(1, &o_vao);
     glBindVertexArray(o_vao);
 
@@ -128,51 +137,56 @@ auto main() -> int
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+    // Arka plan rengi gri olarak ayarlanır
     glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 
+    // Kamera ve projeksiyon ayarlanır
     auto proj = glm::perspective(glm::radians(60.0f), static_cast<float>(window_width) / static_cast<float>(window_height), 0.1f, 100.0f);
     auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
 
+    // Ana oyun döngüsü
     while (!glfwWindowShouldClose(window))
     {
         glfwPollEvents();
 
+        // ESC tuşuna basılırsa pencere kapanır
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         {
             glfwSetWindowShouldClose(window, true);
         }
 
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT); // Ekranı temizle
 
-        glUseProgram(shader);
+        glUseProgram(shader); // Shader programını kullan
 
+        // Uniform matrisleri GPU'ya gönder
         glUniformMatrix4fv(0, 1, GL_FALSE, glm::value_ptr(proj));
         glUniformMatrix4fv(1, 1, GL_FALSE, glm::value_ptr(view));
 
-        for (auto row = 0; row < 3; row++)
+        // 3x3 tahta çizimi için döngüler
+        for (auto row = 0; row < 3; row++) // satırlar
         {
-            for (auto col = 0; col < 3; col++)
+            for (auto col = 0; col < 3; col++) // sütunlar
             {
                 constexpr auto  tile_space = 1.1f;
 
                 const auto x = -tile_space + col * tile_space;
                 const auto y =  tile_space - row * tile_space;
 
-                auto model = glm::translate(glm::mat4(1.0f), glm::vec3(x, y, 0.0f));
+                auto model = glm::translate(glm::mat4(1.0f), glm::vec3(x, y, 0.0f)); // her karenin konumu
 
                 glUniformMatrix4fv(2, 1, GL_FALSE, glm::value_ptr(model));
 
-                //glDrawElements(GL_TRIANGLES, tile_elements.size(), GL_UNSIGNED_INT, nullptr);
-
-                glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr);
+                //glDrawElements(GL_TRIANGLES, tile_elements.size(), GL_UNSIGNED_INT, nullptr); // kareyi çizmek için
+                glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
             }
         }
 
-        glfwSwapBuffers(window);
+        glfwSwapBuffers(window); // Ekranı güncelle
     }
 
+    // Kaynaklar serbest bırakılır
     glDeleteVertexArrays(1, &tile_vao);
-
     glDeleteBuffers(1, &tile_vbo);
     glDeleteBuffers(1, &tile_ebo);
 
