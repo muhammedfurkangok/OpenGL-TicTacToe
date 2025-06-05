@@ -223,8 +223,20 @@ auto main() -> int
 
                 glUniformMatrix4fv(2, 1, GL_FALSE, glm::value_ptr(model));
 
+                //glBindVertexArray(tile_vao); // kare VAO'su bağlanır
                 //glDrawElements(GL_TRIANGLES, tile_elements.size(), GL_UNSIGNED_INT, nullptr); // kareyi çizmek için
-                glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
+
+                if(row == col)
+                {
+                    glBindVertexArray(x_vao);
+                    glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
+                }
+                else
+                {
+                    glBindVertexArray(o_vao);
+                    glDrawElements(GL_TRIANGLES, x_elements.size(), GL_UNSIGNED_INT, nullptr); // X modeli çizilir
+                }
+
             }
         }
 
@@ -234,12 +246,15 @@ auto main() -> int
     // Kaynaklar serbest bırakılır
     glDeleteVertexArrays(1, &tile_vao);
     glDeleteVertexArrays(1, &o_vao);
+    glDeleteVertexArrays(1, &x_vao);
 
     glDeleteBuffers(1, &tile_vbo);
     glDeleteBuffers(1, &tile_ebo);
 
     glDeleteBuffers(1, &o_vbo);
     glDeleteBuffers(1, &o_ebo);
+    glDeleteBuffers(1, &x_vbo);
+    glDeleteBuffers(1, &x_ebo);
 
     glDeleteShader(vertex_stage);
     glDeleteShader(fragment_stage);
