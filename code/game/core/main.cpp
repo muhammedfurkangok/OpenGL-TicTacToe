@@ -1,4 +1,4 @@
-#include <glad/glad.h>
+    #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
@@ -187,8 +187,18 @@ auto main() -> int
 
     // Kaynaklar serbest bırakılır
     glDeleteVertexArrays(1, &tile_vao);
+    glDeleteVertexArrays(1, &o_vao);
+
     glDeleteBuffers(1, &tile_vbo);
     glDeleteBuffers(1, &tile_ebo);
+
+    glDeleteBuffers(1, &o_vbo);
+    glDeleteBuffers(1, &o_ebo);
+
+    glDeleteShader(vertex_stage);
+    glDeleteShader(fragment_stage);
+
+    glDeleteProgram(shader);
 
     glfwDestroyWindow(window);
     glfwTerminate();
