@@ -92,29 +92,75 @@ auto main() -> int
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+    std::vector<float> x_vertices;
+    std::vector<uint32_t> x_elements;
+
+    Assimp::Importer x_importer;
+
+    const auto x_scene = x_importer.ReadFile("x.obj", 0);
+    const auto x_mesh = x_scene->mMeshes[0];
+
+    for (auto i = 0; i < x_mesh->mNumVertices; i++)
+    {
+        auto vertex = x_mesh->mVertices[i];
+        x_vertices.push_back(vertex.x);
+        x_vertices.push_back(vertex.y);
+        x_vertices.push_back(vertex.z);
+    }
+
+    for (auto i = 0; i < x_mesh->mNumFaces; i++)
+    {
+        auto face = x_mesh->mFaces[i];
+        x_elements.push_back(face.mIndices[0]);
+        x_elements.push_back(face.mIndices[1]);
+        x_elements.push_back(face.mIndices[2]);
+    }
+
+    uint32_t x_vao, x_vbo, x_ebo;
+
+    // 'X' mesh'i için VAO, VBO, EBO oluşturuluyor
+    glGenVertexArrays(1, &x_vao);
+    glBindVertexArray(x_vao);
+
+    glGenBuffers(1, &x_vbo);
+    glBindBuffer(GL_ARRAY_BUFFER, x_vbo);
+
+    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * x_vertices.size(), x_vertices.data(), GL_STATIC_DRAW);
+
+    glGenBuffers(1, &x_ebo);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, x_ebo);
+
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(uint32_t) * x_elements.size(), x_elements.data(), GL_STATIC_DRAW);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+
+    glEnableVertexAttribArray(0);
+
+
+
     // 'O' harfi için vertex ve index dizileri
     std::vector<float>    o_vertices;
     std::vector<uint32_t> o_elements;
 
-    Assimp::Importer importer;
+    Assimp::Importer o_importer;
 
     // Assimp ile model dosyası okunuyor
-    auto scene = importer.ReadFile("o.obj", 0);
-    auto mesh  = scene->mMeshes[0];
+    auto o_scene = o_importer.ReadFile("o.obj", 0);
+    auto o_mesh  = o_scene->mMeshes[0];
 
     // Tüm vertexler alınır (x, y, z)
-    for (auto i = 0; i < mesh->mNumVertices; i++)
+    for (auto i = 0; i < o_mesh->mNumVertices; i++)
     {
-        auto vertex = mesh->mVertices[i];
+        auto vertex = o_mesh->mVertices[i];
         o_vertices.push_back(vertex.x);
         o_vertices.push_back(vertex.y);
         o_vertices.push_back(vertex.z);
     }
 
     // Her yüzey üç köşe içerir. Bu köşe indexleri alınır
-    for (auto i = 0; i < mesh->mNumFaces; i++)
+    for (auto i = 0; i < o_mesh->mNumFaces; i++)
     {
-        auto face = mesh->mFaces[i];
+        auto face = o_mesh->mFaces[i];
         o_elements.push_back(face.mIndices[0]);
         o_elements.push_back(face.mIndices[1]);
         o_elements.push_back(face.mIndices[2]);
