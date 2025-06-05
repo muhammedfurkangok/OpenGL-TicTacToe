@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//No help, variable specified on the command line.
-ADO_ASSIMP_IMPORTER_OBJ:BOOL=ON
-
 //Android JNI IOSystem support is active
 ASSIMP_ANDROID_JNIIOSYSTEM:BOOL=OFF
 
@@ -63,6 +60,9 @@ ASSIMP_BUILD_M3D_IMPORTER:BOOL=OFF
 //Build the C4D importer, which relies on the non-free Cineware
 // SDK.
 ASSIMP_BUILD_NONFREE_C4D_IMPORTER:BOOL=OFF
+
+//No help, variable specified on the command line.
+ASSIMP_BUILD_OBJ_IMPORTER:BOOL=ON
 
 //If the official samples are built as well (needs Glut).
 ASSIMP_BUILD_SAMPLES:BOOL=OFF
