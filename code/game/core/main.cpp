@@ -92,6 +92,7 @@ auto main() -> int
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+
     std::vector<float> x_vertices;
     std::vector<uint32_t> x_elements;
 
@@ -103,6 +104,7 @@ auto main() -> int
     for (auto i = 0; i < x_mesh->mNumVertices; i++)
     {
         auto vertex = x_mesh->mVertices[i];
+
         x_vertices.push_back(vertex.x);
         x_vertices.push_back(vertex.y);
         x_vertices.push_back(vertex.z);
@@ -111,6 +113,8 @@ auto main() -> int
     for (auto i = 0; i < x_mesh->mNumFaces; i++)
     {
         auto face = x_mesh->mFaces[i];
+
+
         x_elements.push_back(face.mIndices[0]);
         x_elements.push_back(face.mIndices[1]);
         x_elements.push_back(face.mIndices[2]);
@@ -135,6 +139,7 @@ auto main() -> int
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 
     glEnableVertexAttribArray(0);
+
 
 
 
@@ -174,13 +179,16 @@ auto main() -> int
 
     glGenBuffers(1, &o_vbo);
     glBindBuffer(GL_ARRAY_BUFFER, o_vbo);
+
     glBufferData(GL_ARRAY_BUFFER, sizeof(float) * o_vertices.size(), o_vertices.data(), GL_STATIC_DRAW);
 
     glGenBuffers(1, &o_ebo);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, o_ebo);
+
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(uint32_t) * o_elements.size(), o_elements.data(), GL_STATIC_DRAW);
 
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+
     glEnableVertexAttribArray(0);
 
     // Arka plan rengi gri olarak ayarlanır
@@ -229,12 +237,12 @@ auto main() -> int
                 if(row == col)
                 {
                     glBindVertexArray(x_vao);
-                    glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
+                    glDrawElements(GL_TRIANGLES, x_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
                 }
                 else
                 {
                     glBindVertexArray(o_vao);
-                    glDrawElements(GL_TRIANGLES, x_elements.size(), GL_UNSIGNED_INT, nullptr); // X modeli çizilir
+                    glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // X modeli çizilir
                 }
 
             }
