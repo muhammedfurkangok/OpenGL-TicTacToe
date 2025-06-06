@@ -193,7 +193,7 @@ auto main() -> int
     glEnableVertexAttribArray(0);
 
     // Arka plan rengi gri olarak ayarlanır
-    glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+    glClearColor(0.0f, 1.0f, 1.0f, 1.0f); // Cyan: RGB(0,1,1)
 
     // Kamera ve projeksiyon ayarlanır
     auto proj = glm::perspective(glm::radians(60.0f), static_cast<float>(window_width) / static_cast<float>(window_height), 0.1f, 100.0f);
