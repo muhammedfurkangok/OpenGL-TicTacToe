@@ -1,0 +1,332 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Gamedev/OpenGL-TicTacToe/build/App_RobotSimulator_NoGUI_d.exe"
+		},
+		{
+			"path" : "C:/Gamedev/OpenGL-TicTacToe/build/App_RobotSimulator_NoGUI_d.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"libraries/bullet/examples/RobotSimulator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -D_DEBUG -std=gnu++23 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BT_ENABLE_CLSOCKET"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GLEW_STATIC"
+				},
+				{
+					"define" : "USE_GRAPHICAL_BENCHMARK"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/examples"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/examples/SharedMemory"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/examples/ThirdPartyLibs"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/examples/ThirdPartyLibs/enet/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/examples/ThirdPartyLibs/clsocket/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Gamedev/OpenGL-TicTacToe/libraries/bullet/btgui/OpenGLWindow/GlewWindows"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "BulletInverseDynamicsUtils::@ca0438b1205ebe534da9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletRobotics::@946de0c05e0b159e746c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletFileLoader::@cb2ca7224d97bd6539b9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletWorldImporter::@72646a66b8d1f9405153"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletInverseDynamics::@1ffd0a91e6b2c4302a7b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletSoftBody::@d5bd69c004db7241af2e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletCollision::@bdd8c4aee99392257ce3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BulletDynamics::@e46b1cec626b915eb5ca"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LinearMath::@6aae0f2a25967935ffc2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Bullet3Common::@4b0024b685f2b34d5873"
+		}
+	],
+	"id" : "App_RobotSimulator_NoGUI::@736a41cc0bc2c4e28864",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -D_DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletRoboticsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletFileLoaderd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletWorldImporterd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletSoftBodyd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletDynamicsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletCollisiond.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletInverseDynamicsUtilsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBulletInverseDynamicsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libLinearMathd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libBullet3Commond.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lWinmm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "App_RobotSimulator_NoGUI",
+	"nameOnDisk" : "App_RobotSimulator_NoGUI_d.exe",
+	"paths" : 
+	{
+		"build" : "libraries/bullet/examples/RobotSimulator",
+		"source" : "libraries/bullet/examples/RobotSimulator"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/bullet/examples/RobotSimulator/RobotSimulatorMain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/bullet/examples/RobotSimulator/MinitaurSetup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libraries/bullet/examples/RobotSimulator/MinitaurSetup.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

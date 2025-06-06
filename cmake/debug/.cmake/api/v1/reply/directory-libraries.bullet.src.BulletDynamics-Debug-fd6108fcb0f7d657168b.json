@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/src/BulletDynamics",
+		"source" : "libraries/bullet/src/BulletDynamics"
+	}
+}

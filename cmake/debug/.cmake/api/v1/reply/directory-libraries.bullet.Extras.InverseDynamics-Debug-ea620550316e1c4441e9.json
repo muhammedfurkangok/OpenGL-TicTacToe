@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/Extras/InverseDynamics",
+		"source" : "libraries/bullet/Extras/InverseDynamics"
+	}
+}

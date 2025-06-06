@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/Extras/Serialize/BulletXmlWorldImporter",
+		"source" : "libraries/bullet/Extras/Serialize/BulletXmlWorldImporter"
+	}
+}

@@ -9,6 +9,8 @@
 #include <assimp/postprocess.h>
 #include <assimp/scene.h>
 
+#include <btBulletCollisionCommon.h>
+
 #include <vector>
 
 // Vertex Shader - pozisyonu model * view * projection matrisleriyle çarpar
@@ -198,6 +200,21 @@ auto main() -> int
     // Kamera ve projeksiyon ayarlanır
     auto proj = glm::perspective(glm::radians(60.0f), static_cast<float>(window_width) / static_cast<float>(window_height), 0.1f, 100.0f);
     auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.5f));
+
+
+
+
+    btDefaultCollisionConfiguration* collisionConfig = new btDefaultCollisionConfiguration();
+   btCollisionDispatcher* dispatcher = new btCollisionDispatcher(collisionConfig);
+   btBroadphaseInterface* broadphase = new btDbvtBroadphase();
+
+   btCollisionWorld* world = new btCollisionWorld(dispatcher, broadphase, collisionConfig);
+   btCollisionShape *tile_shape = new btBoxShape(btVector3(0.5f, 0.5f, 0.0f));
+
+   btCollisionObject* tile_object = new btCollisionObject();
+   tile_object->setCollisionShape(tile_shape);
+
+   world->addCollisionObject(tile_object);
 
     // Ana oyun döngüsü
     while (!glfwWindowShouldClose(window))

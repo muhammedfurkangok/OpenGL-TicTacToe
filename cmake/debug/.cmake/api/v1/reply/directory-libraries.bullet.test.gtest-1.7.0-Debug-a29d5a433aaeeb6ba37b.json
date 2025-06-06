@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/test/gtest-1.7.0",
+		"source" : "libraries/bullet/test/gtest-1.7.0"
+	}
+}

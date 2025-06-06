@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/src/Bullet3Dynamics",
+		"source" : "libraries/bullet/src/Bullet3Dynamics"
+	}
+}

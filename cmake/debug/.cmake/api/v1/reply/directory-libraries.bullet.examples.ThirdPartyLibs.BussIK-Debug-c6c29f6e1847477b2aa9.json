@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"libraries/bullet/examples/ThirdPartyLibs/BussIK/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libBussIKd.a"
+			],
+			"targetId" : "BussIK::@d72ae861e61fc2361933",
+			"targetIndex" : 28,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/examples/ThirdPartyLibs/BussIK",
+		"source" : "libraries/bullet/examples/ThirdPartyLibs/BussIK"
+	}
+}

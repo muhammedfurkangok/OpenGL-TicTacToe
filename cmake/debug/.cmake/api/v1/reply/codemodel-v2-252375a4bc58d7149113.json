@@ -1,0 +1,1526 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						55
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libraries",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						10,
+						53
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries-Debug-d3d29cb4a9ce453e99dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libraries"
+				},
+				{
+					"build" : "libraries/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.glfw-Debug-9392bfbc07d9d096be9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libraries/glfw"
+				},
+				{
+					"build" : "libraries/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.glfw.src-Debug-bc162444a058dedff432.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libraries/glfw/src",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "libraries/glad",
+					"jsonFile" : "directory-libraries.glad-Debug-78984def022422812d0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/glad",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "libraries/assimp",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.assimp-Debug-29ae8ac4dfbe1d6a6a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "libraries/assimp",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "libraries/assimp/contrib/zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.assimp.contrib.zlib-Debug-664a9f673450c0fae121.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "libraries/assimp/contrib/zlib",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "libraries/assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.assimp.code-Debug-008b0b0578ff1d07879d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "libraries/assimp/code",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "libraries/assimp/test",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-libraries.assimp.test-Debug-9b9639ed0e66390bc57a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "libraries/assimp/test",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "libraries/assimp/test/headercheck",
+					"jsonFile" : "directory-libraries.assimp.test.headercheck-Debug-152cc73ff0f2bce05f04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 2,
+					"source" : "libraries/assimp/test/headercheck"
+				},
+				{
+					"build" : "libraries/bullet",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet-Debug-4f74a4ffca5e77794c1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet"
+				},
+				{
+					"build" : "libraries/bullet/examples",
+					"childIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples-Debug-48dd62a5a7161bad606c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples"
+				},
+				{
+					"build" : "libraries/bullet/Extras",
+					"childIndexes" : 
+					[
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.Extras-Debug-fce5411de0431fd00f20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras"
+				},
+				{
+					"build" : "libraries/bullet/src",
+					"childIndexes" : 
+					[
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					],
+					"jsonFile" : "directory-libraries.bullet.src-Debug-88e3c6cbfff7a0de6d4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src"
+				},
+				{
+					"build" : "libraries/bullet/test",
+					"childIndexes" : 
+					[
+						47,
+						48,
+						49,
+						50,
+						51
+					],
+					"jsonFile" : "directory-libraries.bullet.test-Debug-7880b5971f8d82002612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test"
+				},
+				{
+					"build" : "libraries/bullet/examples/HelloWorld",
+					"jsonFile" : "directory-libraries.bullet.examples.HelloWorld-Debug-41c7c45c3fc6bdfdf721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/HelloWorld",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/BasicDemo",
+					"jsonFile" : "directory-libraries.bullet.examples.BasicDemo-Debug-47589482b9b0e6cca0b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/BasicDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/ExampleBrowser",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples.ExampleBrowser-Debug-fa6ff79206e861cec93d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/ExampleBrowser",
+					"targetIndexes" : 
+					[
+						2,
+						19
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/RobotSimulator",
+					"jsonFile" : "directory-libraries.bullet.examples.RobotSimulator-Debug-f1e498cac153056acb9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/RobotSimulator",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/SharedMemory",
+					"jsonFile" : "directory-libraries.bullet.examples.SharedMemory-Debug-0797fe8272e2911491ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/SharedMemory",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/ThirdPartyLibs/Gwen",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples.ThirdPartyLibs.Gwen-Debug-e610a9bd645dbbf8856b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/ThirdPartyLibs/Gwen",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/ThirdPartyLibs/BussIK",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples.ThirdPartyLibs.BussIK-Debug-c6c29f6e1847477b2aa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/ThirdPartyLibs/BussIK",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/ThirdPartyLibs/clsocket",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples.ThirdPartyLibs.clsocket-Debug-d2cce5889d8f44c636a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/ThirdPartyLibs/clsocket",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/OpenGLWindow",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.examples.OpenGLWindow-Debug-7e6831d2acf50de06114.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/OpenGLWindow",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "libraries/bullet/examples/TwoJoint",
+					"jsonFile" : "directory-libraries.bullet.examples.TwoJoint-Debug-09f0478c70f856c43600.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/examples/TwoJoint",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/InverseDynamics",
+					"jsonFile" : "directory-libraries.bullet.Extras.InverseDynamics-Debug-ea620550316e1c4441e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/InverseDynamics",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/BulletRoboticsGUI",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.Extras.BulletRoboticsGUI-Debug-603de3e272f83d7b9a2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/BulletRoboticsGUI",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/BulletRobotics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.bullet.Extras.BulletRobotics-Debug-477f7ec8618dfbbecad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/BulletRobotics",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/obj2sdf",
+					"jsonFile" : "directory-libraries.bullet.Extras.obj2sdf-Debug-ccacd850333211b3c4ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/obj2sdf",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/Serialize",
+					"childIndexes" : 
+					[
+						33,
+						34,
+						35
+					],
+					"jsonFile" : "directory-libraries.bullet.Extras.Serialize-Debug-f59220d2a26374702bf3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/Serialize"
+				},
+				{
+					"build" : "libraries/bullet/Extras/ConvexDecomposition",
+					"jsonFile" : "directory-libraries.bullet.Extras.ConvexDecomposition-Debug-c365d28a5bf6675b48c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/ConvexDecomposition",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/HACD",
+					"jsonFile" : "directory-libraries.bullet.Extras.HACD-Debug-1f200e1313a72bd49739.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/HACD",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/GIMPACTUtils",
+					"jsonFile" : "directory-libraries.bullet.Extras.GIMPACTUtils-Debug-248b58a3faebd9384632.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/GIMPACTUtils",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/Serialize/BulletFileLoader",
+					"jsonFile" : "directory-libraries.bullet.Extras.Serialize.BulletFileLoader-Debug-e1a3ed361d0f5aa5ad0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/Serialize/BulletFileLoader",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/Serialize/BulletXmlWorldImporter",
+					"jsonFile" : "directory-libraries.bullet.Extras.Serialize.BulletXmlWorldImporter-Debug-2f4b4c228d4b07a82ea5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/Serialize/BulletXmlWorldImporter",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "libraries/bullet/Extras/Serialize/BulletWorldImporter",
+					"jsonFile" : "directory-libraries.bullet.Extras.Serialize.BulletWorldImporter-Debug-15f9dd2e1bcc83dc22dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/Extras/Serialize/BulletWorldImporter",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3OpenCL",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3OpenCL-Debug-6d84a704b9bee1a0e615.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3OpenCL",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3Serialize/Bullet2FileLoader",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3Serialize.Bullet2FileLoader-Debug-e13661c6191dc7bc5d43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3Serialize/Bullet2FileLoader",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3Dynamics",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3Dynamics-Debug-c87e84e941cb2ed98925.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3Dynamics",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3Collision",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3Collision-Debug-fa617eb8e23cdda61dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3Collision",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3Geometry",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3Geometry-Debug-3b179022e313c981c070.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3Geometry",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/BulletInverseDynamics",
+					"jsonFile" : "directory-libraries.bullet.src.BulletInverseDynamics-Debug-18e689f3a6a7b83d0afa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/BulletInverseDynamics",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/BulletSoftBody",
+					"jsonFile" : "directory-libraries.bullet.src.BulletSoftBody-Debug-ddc45808f6905c48e4d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/BulletSoftBody",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/BulletCollision",
+					"jsonFile" : "directory-libraries.bullet.src.BulletCollision-Debug-6b07a4c526af64bf7fb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/BulletCollision",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/BulletDynamics",
+					"jsonFile" : "directory-libraries.bullet.src.BulletDynamics-Debug-fd6108fcb0f7d657168b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/BulletDynamics",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/LinearMath",
+					"jsonFile" : "directory-libraries.bullet.src.LinearMath-Debug-fa1984e5bcbb5de2c0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/LinearMath",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "libraries/bullet/src/Bullet3Common",
+					"jsonFile" : "directory-libraries.bullet.src.Bullet3Common-Debug-818e0822d7516d5a2ef5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/src/Bullet3Common",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/InverseDynamics",
+					"jsonFile" : "directory-libraries.bullet.test.InverseDynamics-Debug-da5c7cb3cc6e5ba3483a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/InverseDynamics",
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/SharedMemory",
+					"jsonFile" : "directory-libraries.bullet.test.SharedMemory-Debug-d99b739c8340a80d9134.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/SharedMemory",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/gtest-1.7.0",
+					"jsonFile" : "directory-libraries.bullet.test.gtest-1.7.0-Debug-a29d5a433aaeeb6ba37b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/gtest-1.7.0",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/collision",
+					"jsonFile" : "directory-libraries.bullet.test.collision-Debug-6eacb84a3cb9614e5fb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/collision",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/BulletDynamics",
+					"childIndexes" : 
+					[
+						52
+					],
+					"jsonFile" : "directory-libraries.bullet.test.BulletDynamics-Debug-464daa569e46c65e505a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/BulletDynamics",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "libraries/bullet/test/BulletDynamics/pendulum",
+					"jsonFile" : "directory-libraries.bullet.test.BulletDynamics.pendulum-Debug-fd131c34183d6f3f0ba6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 4,
+					"source" : "libraries/bullet/test/BulletDynamics/pendulum",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "libraries/glm",
+					"childIndexes" : 
+					[
+						54
+					],
+					"jsonFile" : "directory-libraries.glm-Debug-fe2956ee3a4f541bcd76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "libraries/glm"
+				},
+				{
+					"build" : "libraries/glm/glm",
+					"jsonFile" : "directory-libraries.glm.glm-Debug-41662c9be128f00aed66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 53,
+					"projectIndex" : 5,
+					"source" : "libraries/glm/glm",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "code",
+					"childIndexes" : 
+					[
+						56
+					],
+					"jsonFile" : "directory-code-Debug-72d976be7be2dccbc04f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "code"
+				},
+				{
+					"build" : "code/game",
+					"childIndexes" : 
+					[
+						57
+					],
+					"jsonFile" : "directory-code.game-Debug-c7bcd0c5f086330277db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 55,
+					"projectIndex" : 6,
+					"source" : "code/game",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "code/game/core",
+					"jsonFile" : "directory-code.game.core-Debug-138b14e819acf92701c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 56,
+					"projectIndex" : 6,
+					"source" : "code/game/core"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						55
+					],
+					"name" : "tic-tac-toe",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						7,
+						8,
+						9
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41,
+						49,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "zlib",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52
+					],
+					"name" : "BULLET_PHYSICS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						42,
+						47,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						53,
+						54
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						56,
+						57
+					],
+					"name" : "game",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 16,
+					"id" : "AppBasicExampleGui::@60037809ac90a81e356b",
+					"jsonFile" : "target-AppBasicExampleGui-Debug-968d39dc26b3d7362f9a.json",
+					"name" : "AppBasicExampleGui",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "App_BasicExample::@60037809ac90a81e356b",
+					"jsonFile" : "target-App_BasicExample-Debug-abfab50d6ce9a46e2018.json",
+					"name" : "App_BasicExample",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "App_ExampleBrowser::@95b508c7fcc10689de27",
+					"jsonFile" : "target-App_ExampleBrowser-Debug-d494d52c489e0852c6bb.json",
+					"name" : "App_ExampleBrowser",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "App_HelloBulletRobotics::@736a41cc0bc2c4e28864",
+					"jsonFile" : "target-App_HelloBulletRobotics-Debug-70da91ddabc4b6b0413e.json",
+					"name" : "App_HelloBulletRobotics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "App_HelloWorld::@308715783ef8106bbf42",
+					"jsonFile" : "target-App_HelloWorld-Debug-cda821f65fc27dac97cc.json",
+					"name" : "App_HelloWorld",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "App_PhysicsServer_SharedMemory::@c1d6dfb9b656fb9392eb",
+					"jsonFile" : "target-App_PhysicsServer_SharedMemory-Debug-fbd99592bcbabceee11b.json",
+					"name" : "App_PhysicsServer_SharedMemory",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "App_PhysicsServer_SharedMemory_GUI::@c1d6dfb9b656fb9392eb",
+					"jsonFile" : "target-App_PhysicsServer_SharedMemory_GUI-Debug-a9764c3b46b9df9c23b6.json",
+					"name" : "App_PhysicsServer_SharedMemory_GUI",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "App_RobotSimulator::@736a41cc0bc2c4e28864",
+					"jsonFile" : "target-App_RobotSimulator-Debug-cfaf182b75f4d1949228.json",
+					"name" : "App_RobotSimulator",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "App_RobotSimulator_NoGUI::@736a41cc0bc2c4e28864",
+					"jsonFile" : "target-App_RobotSimulator_NoGUI-Debug-087cf7cb95fc7ae08b96.json",
+					"name" : "App_RobotSimulator_NoGUI",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "App_TwoJoint::@1f8cbfde44148b5d9810",
+					"jsonFile" : "target-App_TwoJoint-Debug-4a903a6e8f0f68680d1a.json",
+					"name" : "App_TwoJoint",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "App_obj2sdf::@94f6b356c7b366019adc",
+					"jsonFile" : "target-App_obj2sdf-Debug-c93fb2ae41c1cf20cc78.json",
+					"name" : "App_obj2sdf",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "Bullet2FileLoader::@9a831343dfbc3e0c5c21",
+					"jsonFile" : "target-Bullet2FileLoader-Debug-3781aa230dac3075fbd4.json",
+					"name" : "Bullet2FileLoader",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "Bullet3Collision::@e478a467ebf667df7c42",
+					"jsonFile" : "target-Bullet3Collision-Debug-42e7b637bd32677e4ca7.json",
+					"name" : "Bullet3Collision",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "Bullet3Common::@4b0024b685f2b34d5873",
+					"jsonFile" : "target-Bullet3Common-Debug-682d7363134a2bce0e5a.json",
+					"name" : "Bullet3Common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "Bullet3Dynamics::@5a2db46c3f654a4d9002",
+					"jsonFile" : "target-Bullet3Dynamics-Debug-776c696b5fb25f7b3aa0.json",
+					"name" : "Bullet3Dynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "Bullet3Geometry::@e9ba7cd473ab6bab9472",
+					"jsonFile" : "target-Bullet3Geometry-Debug-2683e04fc8e363a48ba5.json",
+					"name" : "Bullet3Geometry",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "Bullet3OpenCL_clew::@a3787079d7c771ff8232",
+					"jsonFile" : "target-Bullet3OpenCL_clew-Debug-0928733a7da71d41addf.json",
+					"name" : "Bullet3OpenCL_clew",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "BulletCollision::@bdd8c4aee99392257ce3",
+					"jsonFile" : "target-BulletCollision-Debug-08572c236fba9e4670da.json",
+					"name" : "BulletCollision",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "BulletDynamics::@e46b1cec626b915eb5ca",
+					"jsonFile" : "target-BulletDynamics-Debug-b4ecd1626aab57af6eea.json",
+					"name" : "BulletDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "BulletExampleBrowserLib::@95b508c7fcc10689de27",
+					"jsonFile" : "target-BulletExampleBrowserLib-Debug-e7160f051999eb3a58d2.json",
+					"name" : "BulletExampleBrowserLib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "BulletFileLoader::@cb2ca7224d97bd6539b9",
+					"jsonFile" : "target-BulletFileLoader-Debug-8b68ab81d35cdf87a3c9.json",
+					"name" : "BulletFileLoader",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "BulletInverseDynamics::@1ffd0a91e6b2c4302a7b",
+					"jsonFile" : "target-BulletInverseDynamics-Debug-f203791610931c3afd3e.json",
+					"name" : "BulletInverseDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "BulletInverseDynamicsUtils::@ca0438b1205ebe534da9",
+					"jsonFile" : "target-BulletInverseDynamicsUtils-Debug-7a8aad8c1a38c4621b1f.json",
+					"name" : "BulletInverseDynamicsUtils",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "BulletRobotics::@946de0c05e0b159e746c",
+					"jsonFile" : "target-BulletRobotics-Debug-cbd54791c832538df781.json",
+					"name" : "BulletRobotics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "BulletRoboticsGUI::@470050e36d08392abc1f",
+					"jsonFile" : "target-BulletRoboticsGUI-Debug-a010cc53592d54dbbfff.json",
+					"name" : "BulletRoboticsGUI",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "BulletSoftBody::@d5bd69c004db7241af2e",
+					"jsonFile" : "target-BulletSoftBody-Debug-9d3c29294f6d0d08c30f.json",
+					"name" : "BulletSoftBody",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "BulletWorldImporter::@72646a66b8d1f9405153",
+					"jsonFile" : "target-BulletWorldImporter-Debug-56b4e57354046212f297.json",
+					"name" : "BulletWorldImporter",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "BulletXmlWorldImporter::@735f67749c7ff41c842d",
+					"jsonFile" : "target-BulletXmlWorldImporter-Debug-6359a4f8a0e843b33289.json",
+					"name" : "BulletXmlWorldImporter",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "BussIK::@d72ae861e61fc2361933",
+					"jsonFile" : "target-BussIK-Debug-9b3dcfd2bde445f634b5.json",
+					"name" : "BussIK",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ConvexDecomposition::@3fe1372609cccfe1c4f1",
+					"jsonFile" : "target-ConvexDecomposition-Debug-2939cc10236df3b37c54.json",
+					"name" : "ConvexDecomposition",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "GIMPACTUtils::@81b180421321169dc035",
+					"jsonFile" : "target-GIMPACTUtils-Debug-7343fa1b3b3ae62be7c9.json",
+					"name" : "GIMPACTUtils",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "HACD::@e5e98f84bbac0a3c1d99",
+					"jsonFile" : "target-HACD-Debug-8e50f216153bfa1ec0a4.json",
+					"name" : "HACD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "LinearMath::@6aae0f2a25967935ffc2",
+					"jsonFile" : "target-LinearMath-Debug-ba46314df90492bec12d.json",
+					"name" : "LinearMath",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "OpenGLWindow::@212b20f9bfafce9ac167",
+					"jsonFile" : "target-OpenGLWindow-Debug-a1282e32a009953b770d.json",
+					"name" : "OpenGLWindow",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "Test_BulletDynamics::@98156a4f98fc98f7b52b",
+					"jsonFile" : "target-Test_BulletDynamics-Debug-73c32414e29de957aba2.json",
+					"name" : "Test_BulletDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "Test_BulletInverseDynamics::@a8c5ec3a12de38b4d436",
+					"jsonFile" : "target-Test_BulletInverseDynamics-Debug-5357ecd5e75224378bcf.json",
+					"name" : "Test_BulletInverseDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "Test_BulletInverseDynamicsJacobian::@a8c5ec3a12de38b4d436",
+					"jsonFile" : "target-Test_BulletInverseDynamicsJacobian-Debug-2cfe2863eab308ce73fa.json",
+					"name" : "Test_BulletInverseDynamicsJacobian",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "Test_BulletInverseForwardDynamics::@a8c5ec3a12de38b4d436",
+					"jsonFile" : "target-Test_BulletInverseForwardDynamics-Debug-f5bc303fd496682c5a77.json",
+					"name" : "Test_BulletInverseForwardDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "Test_Collision::@d1b1f960f0a12afdf3ef",
+					"jsonFile" : "target-Test_Collision-Debug-e9bc3d236f765517c233.json",
+					"name" : "Test_Collision",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "Test_PhysicsClientServer::@50aa5610f120c3b27e13",
+					"jsonFile" : "target-Test_PhysicsClientServer-Debug-a3409d281c18984f4666.json",
+					"name" : "Test_PhysicsClientServer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "Test_btKinematicCharacterController::@5bb3900cf35b9fc362d2",
+					"jsonFile" : "target-Test_btKinematicCharacterController-Debug-a3b7a7fa1c3686d78430.json",
+					"name" : "Test_btKinematicCharacterController",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "assimp::@e294c858c0f0db9a71f7",
+					"jsonFile" : "target-assimp-Debug-87ab55034553eda1fe4c.json",
+					"name" : "assimp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "clsocket::@4ceae343ba40d37fc675",
+					"jsonFile" : "target-clsocket-Debug-c13a33985ac10db41e38.json",
+					"name" : "clsocket",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "game::@efba46d9fb97b7572c33",
+					"jsonFile" : "target-game-Debug-75007defc8f131b1dd3d.json",
+					"name" : "game",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glad::@3dc4ab03f6fdfa199928",
+					"jsonFile" : "target-glad-Debug-8292c0111fe1093b933a.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@7d8f67159c48f691a52d",
+					"jsonFile" : "target-glfw-Debug-a2788c19aebed138f091.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "glm::@c665460d81662f7ff23a",
+					"jsonFile" : "target-glm-Debug-2b643f82367c6a322d27.json",
+					"name" : "glm",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "gtest::@83a30640fbcf48324a03",
+					"jsonFile" : "target-gtest-Debug-66f10f8068e67f661b6c.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "gwen::@75fe52886133bb1bdea2",
+					"jsonFile" : "target-gwen-Debug-3b6fce373873fdad7fe8.json",
+					"name" : "gwen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@f32328ade48509a7a5ba",
+					"jsonFile" : "target-uninstall-Debug-b574fcd11fde2823866a.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "unit::@5da19c7c936900080a34",
+					"jsonFile" : "target-unit-Debug-3cb76b647eb44e67c6bd.json",
+					"name" : "unit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "zlibstatic::@228e28a2e93c7afe5817",
+					"jsonFile" : "target-zlibstatic-Debug-fccd8c62636bee1d89f8.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Gamedev/OpenGL-TicTacToe/cmake/debug",
+		"source" : "C:/Gamedev/OpenGL-TicTacToe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

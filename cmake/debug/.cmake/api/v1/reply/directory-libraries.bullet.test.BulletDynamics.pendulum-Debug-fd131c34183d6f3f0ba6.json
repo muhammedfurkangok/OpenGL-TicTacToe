@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libraries/bullet/test/BulletDynamics/pendulum",
+		"source" : "libraries/bullet/test/BulletDynamics/pendulum"
+	}
+}
