@@ -27,9 +27,10 @@ auto vertex_stage_text =
 auto fragment_stage_text =
         "#version 450\n"
         "out vec4 color;\n"
+        "layout(location = 3) uniform vec3 u_color;\n"
         "void main()\n"
         "{\n"
-        "    color = vec4(1.0, 0.0, 0.0, 1.0);\n"
+        "    color = vec4(u_color, 1.0);\n"
         "}\n";
 
 auto main() -> int
@@ -196,7 +197,7 @@ auto main() -> int
 
     // Kamera ve projeksiyon ayarlanır
     auto proj = glm::perspective(glm::radians(60.0f), static_cast<float>(window_width) / static_cast<float>(window_height), 0.1f, 100.0f);
-    auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
+    auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.5f));
 
     // Ana oyun döngüsü
     while (!glfwWindowShouldClose(window))
@@ -233,14 +234,17 @@ auto main() -> int
 
                 //glBindVertexArray(tile_vao); // kare VAO'su bağlanır
                 //glDrawElements(GL_TRIANGLES, tile_elements.size(), GL_UNSIGNED_INT, nullptr); // kareyi çizmek için
-
                 if(row == col)
                 {
+                    glUniform3fv(3, 1, glm::value_ptr(glm::vec3(0.0f, 1.0f, 0.0f))); // Yeşil renk
+
                     glBindVertexArray(x_vao);
                     glDrawElements(GL_TRIANGLES, x_elements.size(), GL_UNSIGNED_INT, nullptr); // O modeli çizilir
                 }
                 else
                 {
+                    glUniform3fv(3, 1, glm::value_ptr (glm::vec3(1.0f, 0.0f, 0.0f))); // Kırmızı renk
+
                     glBindVertexArray(o_vao);
                     glDrawElements(GL_TRIANGLES, o_elements.size(), GL_UNSIGNED_INT, nullptr); // X modeli çizilir
                 }
