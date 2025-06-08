@@ -1,3 +1,7 @@
+# Tic-Tac-Toe
+
+![Preview](PREVIEW.png)
+
 ## Tasks
 
 - [ ] Create a File class to read simple text
