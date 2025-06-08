@@ -8,7 +8,7 @@ This project is a basic implementation of 3D object rendering using OpenGL. The 
 - Basic game logic (TicTacToe)
 - Written primarily in C/C++
 
-##Game Preview
+## Game Preview
 
 ![Preview](PREVIEW.png)
 
