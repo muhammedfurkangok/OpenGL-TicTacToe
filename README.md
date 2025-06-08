@@ -5,8 +5,7 @@ This project is a basic implementation of 3D object rendering using OpenGL. The 
 ## Features
 - Simple 3D object rendering
 - Manual buffer and vertex management
-- Basic game logic (TicTacToe)
-- Written primarily in C/C++
+- Written primarily in C++ / OpenGL
 
 ## Game Preview
 
