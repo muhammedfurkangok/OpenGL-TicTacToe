@@ -1,8 +1,18 @@
-# Tic-Tac-Toe
+# OpenGL TicTacToe
+
+This project is a basic implementation of 3D object rendering using OpenGL. The main goal is to learn and demonstrate fundamental OpenGL concepts such as buffers, vertices, and rendering pipelines. Everything in the project is built from scratch without relying on advanced frameworks, making it ideal for beginners who want to understand how OpenGL works under the hood.
+
+## Features
+- Simple 3D object rendering
+- Manual buffer and vertex management
+- Basic game logic (TicTacToe)
+- Written primarily in C/C++
+
+##Game Preview
 
 ![Preview](PREVIEW.png)
 
-## Tasks
+## Tasks & Future Improvements
 
 - [ ] Create a File class to read simple text
 - [ ] Move PhysicsDebug into a separate file
